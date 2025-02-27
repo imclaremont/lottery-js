@@ -1,0 +1,32 @@
+/* 기본 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    color: #333;
+}
+
+#message {
+    font-size: 1.2em;
+    color: #555;
+}
+
+#result {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* 성공 및 실패 메시지 스타일 */
+.success {
+    color: blue;
+}
+
+.fail {
+    color: red;
+}
